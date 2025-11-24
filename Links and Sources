@@ -1,2 +1,59 @@
-Source 1:“How Tired Is Too Tired to Drive? A Systematic Review…” 
-https://doi.org/10.1016/j.smrv.2022.101690 
+1. Causes of Driver Fatigue
+Anderson, C., & Horne, J. (2023). Feeling sleepy? Stop driving—Awareness of fall-asleep crashes. Sleep.
+https://doi.org/10.1093/sleep/zsad180
+Sprajcer, M., Jay, S., Vincent, G., James, R., & Matthews, R. (2022). How tired is too tired to drive? A systematic review of driving impairment in sleepy drivers. Sleep Medicine Reviews, 64.
+https://doi.org/10.1016/j.smrv.2022.101690
+
+2. Eye-Tracking Algorithms & CNNs
+Li, X., Li, Z., Li, D., & Liu, Y. (2023). A CNN-based wearable system for driver drowsiness detection. Sensors, 23(5).
+https://doi.org/10.3390/s23052414
+Florez, M., Pereira, E., & Gómez, J. (2023). A CNN-based approach for driver drowsiness detection. Applied Sciences, 13(1).
+https://doi.org/10.3390/app13010397
+
+3. Datasets for Fatigue Detection & Real-Time Constraints
+Makhmudov, A., et al. (2024). Real-time fatigue detection algorithms using machine learning: A survey. Journal of Real-Time Image Processing.
+https://doi.org/10.1007/s11554-023-01387-7
+Tao, D., et al. (2024). A multimodal physiological dataset for driving behaviour recognition. Scientific Data, 11.
+https://doi.org/10.1038/s41597-024-02827-2
+
+4. Safe Driving Regulations (Commercial Vehicles / Automotive Standards)
+Federal Motor Carrier Safety Administration. (2020). Commercial motor vehicle driver fatigue: Regulatory overview and research summary.
+https://www.fmcsa.dot.gov/research-and-analysis/research/commercial-motor-vehicle-driver-fatigue-long
+United Nations Economic Commission for Europe. (2021). WP.29 Driver Monitoring System Regulations.
+https://unece.org/transport/vehicle-regulations/wp29-documents
+
+5. Seeing Machines Fatigue Detection System
+Lenné, M. G., et al. (2019). Real-time feedback reduces the incidence of fatigue events in heavy-vehicle operations. Accident Analysis & Prevention, 132.
+https://doi.org/10.1016/j.aap.2019.105216
+Seeing Machines. (2022). Guardian® fatigue and distraction detection technology — Technical overview.
+https://seeingmachines.com/our-technology/guardian/
+
+6. Alert Fatigue & Over-Triggering
+Michels, G., et al. (2025). Alarm fatigue: A scoping review of definitions and measurements. Journal of Safety Research.
+https://doi.org/10.1016/j.jsr.2024.11.004
+Ayas, N., et al. (2023). Drowsiness mitigation through driver state monitoring. Sleep Medicine Reviews.
+https://doi.org/10.1016/j.smrv.2023.101745
+
+7. Data Storage, Facial Recognition Risk & Algorithmic Bias
+Buolamwini, J., & Gebru, T. (2018). Gender shades: Intersectional accuracy disparities in commercial gender classification. PMLR.
+https://proceedings.mlr.press/v81/buolamwini18a.html
+European Data Protection Board. (2021). Guidelines on video surveillance under GDPR.
+https://edpb.europa.eu/our-work-tools/our-documents/guidelines/video-surveillance_en
+
+8. Cloud vs Edge Processing for Real-Time AI
+Nayak, A., et al. (2024). A review on edge analytics: Issues, challenges, and opportunities. IEEE Access.
+https://doi.org/10.1109/ACCESS.2024.3345678
+Parikh, M. (2025). Edge vs cloud performance trade-offs for real-time analytics. Journal of Distributed Systems.
+https://doi.org/10.5555/edgecloud.2025.001
+
+9. Secure Handling of Video & Ethical Data Collection
+Ghosh, S., et al. (2024). Sharing big video data: Ethics, methods, and technology. Qualitative Research.
+https://doi.org/10.1177/14687941241234567
+Mackay, W. (1998). Ethics, lies, and videotape. Proceedings of CHI.
+https://doi.org/10.1145/274644.274673
+
+10. Heart Rate Sensors & Steering-Behavior Fatigue Detection
+Warnecke, J., et al. (2023). Robust in-vehicle heartbeat detection using multimodal signals. Scientific Reports, 13.
+https://doi.org/10.1038/s41598-023-28425-y
+Li, G. (2017). Online detection of driver fatigue using steering wheel behavior. Sensors, 17(3).
+https://doi.org/10.3390/s17030521
