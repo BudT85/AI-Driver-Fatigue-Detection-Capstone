@@ -57,3 +57,55 @@ Warnecke, J., et al. (2023). Robust in-vehicle heartbeat detection using multimo
 https://doi.org/10.1038/s41598-023-28425-y
 Li, G. (2017). Online detection of driver fatigue using steering wheel behavior. Sensors, 17(3).
 https://doi.org/10.3390/s17030521
+
+Stats: 
+From How Tired is Too Tired to Drive? A Systematic Review Assessing the Use of Prior Sleep Duration to Detect Driving Impairment (2023) 
+
+Fatigue contributes to ~ 20% of all vehicle crashes worldwide (or in studied jurisdictions). PMC+2Monash Research+2 
+
+After 6–7 hours of prior sleep (versus ≥ 8 hours), crash likelihood is ~ 30% greater; after only 4–5 hours sleep in prior 24h — crash risk is approximately double compared with well-rested drivers. PMC+1 
+
+
+From a population-based case-control study in NZ: Driver sleepiness and risk of serious injury to car occupants: population based case control study (1998–99) 
+
+Drivers who reported being “sleepy” (on a sleepiness scale) had an odds ratio ~ 8.2 (95% CI: 3.4–19.7) for injury crashes vs non-sleepy drivers. PubMed 
+
+Drivers who had ≤ 5 hours of sleep in the previous 24 h had 2.7 times the risk (95% CI: 1.4–5.4) of an injury crash compared with drivers with > 5 hours sleep. PubMed 
+
+
+From the official statistics compiled by National Highway Traffic Safety Administration (NHTSA) and reviewed by public-health/safety orgs 
+In 2017, there were ~ 91,000 police-reported crashes involving drowsy drivers, resulting in ~ 50,000 injuries and nearly 800 deaths. NHTSA+1 
+
+From real-time drowsiness detection research: Real-Time Fatigue Detection Algorithms Using Machine Learning for Yawning and Eye State (recent) 
+The CNN-based system (video + eye state / yawning detection) reported a 96.54% testing accuracy under varied lighting and facial-angle conditions. PubMed 
+
+From another detection-algorithm study: A CNN‑Based Approach for Driver Drowsiness Detection (Applied Sciences, 2023) 
+Demonstrates feasibility of using eye/face imagery and CNN methods to detect drowsiness reliably (supports viability of data-driven fatigue detection). MDPI 
+
+In an on-road, sleep-deprivation study: increased “prolonged eyelid closures, blink duration, and ratio of amplitude to velocity of eyelid closure” strongly associated with “out-of-lane driving events” (i.e. driving impairment). PubMed 
+Indicates that eyelid closure dynamics (not just simple “eyes open/closed”) correlate with real-world driving impairment — good for eye-closure thresholds in detection. 
+Specificity 70.12%–84.15% (at 50% sensitivity) for detecting out-of-lane events using blink parameters (in same-minute windows) in the above study. PubMed 
+Provides a baseline for trade-offs between false positives and detection sensitivity when tuning real-time fatigue alerts. 
+
+During naturalistic driving among OSA patients vs controls: quiescence periods (i.e., no ocular movement) were ~0.20 s for OSA group vs ~0.14 s for controls (≈ 43% increase). PubMed 
+Shows that even small changes in “still-eye” duration can indicate increased drowsiness — useful for setting eye-movement thresholds. 
+In the same study: critical drowsiness events (per Johns Drowsiness Scale ≥ 2.6) occurred at nearly double the rate in OSA drivers vs controls (rate ratio ≈ 1.93). PubMed 
+That exaggeration in drowsiness events supports using continuous eye-blink metrics (vs. self-report) for fatigue detection. 
+
+In a modern CNN-based detection system (video + face/eye/mouth): 96.54% testing accuracy for fatigue detection under varying lighting and facial-angle conditions. MDPI+1 
+Demonstrates that computer-vision-based systems can be highly accurate — supports feasibility of your project’s detection pipeline. 
+
+In a real-time embedded deep-learning model on standard hardware: system achieved 98.81% accuracy on known fatigue datasets (e.g. YawDD, NTHU-DD) combining eye closure (PERCLOS) + mouth (yawn) detection. ScienceDirect 
+Shows that even resource-constrained devices can run reliable fatigue detection — important for design constraints (edge / real-time). 
+
+In head-pose + eye/mouth fusion detection: during fatigue, head-pitch shifts and increased mouth opening (yawning) detected as features; mouth opening ratio thresholds (MAR) ~ 0.73 for yawning vs ~0.35 for neutral/talking. MDPI 
+Gives concrete threshold-values (mouth opening ratio) that may be used to detect yawning/fatigue reliably across drivers. 
+
+In a survey of eye-activity measures across many studies: 36.5% of reviewed works used blink frequency, 29% used blink duration as drowsiness metrics; 14.5% used PERCLOS (eyelid closure ratio) as fatigue indicator. ResearchGate 
+Highlights that blink frequency, blink duration, and eyelid-closure ratio are among the most widely used and validated features — good justification for using them in your dataset documentation and detection algorithm. 
+
+In typical (non-fatigued) conditions: normal blink duration reported as ~0.1 s to 0.4 s (i.e. 2–3 blinks per second in some descriptions). iosrjen.org+1 
+Provides a baseline “normal blink” range — useful to compare against when defining “abnormal” blink durations or blink-rate drop thresholds for drowsiness detection. 
+
+In fatigue condition detection research: prolonged eye closures, lowered blink frequency, and yawning combined improved detection performance compared to single-feature detection. PMC+2MDPI+2 
+Suggests combining multiple behavioral indicators (eyes + mouth + head pose) yields more reliable detection — supports a multimodal feature approach in dataset design. 
